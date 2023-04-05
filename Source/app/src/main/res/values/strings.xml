@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CST145</string>
+    <string name="title">CST145 Project</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_score">High Scores</string>
+    <string name="btn_name">Change Name</string>
+    <string name="btn_name_edit">Save Changes</string>
+    <string name="error_message">Please enter three uppercase letters as the player name</string>
+    <string name="score_title">High Scores</string>
+    <string name="btn_back">Go Back</string>
+    <string name="score_head_name">Name</string>
+    <string name="score_head_score">Score</string>
+    <string name="score_head_time">Time</string>
+    <string name="score_head_lon">Longitude</string>
+    <string name="score_head_lat">Latitude</string>
+    <string name="btn_exit">Exit Game</string>
+    <string name="btn_easy">Easy</string>
+    <string name="btn_med">Medium</string>
+    <string name="btn_hard">Hard</string>
+    <string name="start_game">Start Game</string>
+    <string name="title_activity_end_game">EndGame</string>
+    <string name="goodgame">Good Game %1$s!</string>
+    <string name="score">You got a score of %1$d</string>
+    <string name="btn_end_score">View High Scores</string>
+    <string name="btn_end_home">Return to Menu</string>
+    <string name="btn_continue">Continue</string>
+    <string name="score_counter">%1$s Score: %2$d</string>
+    <string name="location_reminder">Please activate location permissions in your app settings.</string>
+    <string name="btn_perms">App Permissions</string>
+    <string name="btn_clear_db">Clear Scores</string>
+
+</resources>

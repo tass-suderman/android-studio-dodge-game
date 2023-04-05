@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:visibility="visible"
+    app:layoutDescription="@xml/activity_game_scene"
+    tools:context=".Game">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnGamer"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/teal_200"
+        app:cardCornerRadius="6dp"
+        app:srcCompat="@color/teal_200"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btnLine"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:background="@color/black"
+        android:visibility="invisible"
+        app:srcCompat="@color/black" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnHome"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:srcCompat="@color/black"
+        app:cardCornerRadius="25dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnMe"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="invisible"
+        app:cardCornerRadius="15dp"
+        app:srcCompat="@color/white" />
+
+    <ImageView
+        android:id="@+id/ivController"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txtCurrentScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnYeety"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btn_continue"
+        android:visibility="gone" />
+
+</FrameLayout>
